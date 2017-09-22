@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="554e24fc-15dc-43c8-9e67-7988daf756b3">
+  <producedTypes>
+    <objectType typeId="9a64a693-afc9-4746-9294-d200d21b0ce0" valueTypeId="9591d3c8-d96f-4b88-a442-2e31742e807d"/>
+    <refType typeId="b7ccb69c-c893-4e9d-8d58-f042b552df62" valueTypeId="4f3de2a4-8474-4dea-9eaa-f4fb2208959d"/>
+    <selectionType typeId="43b82631-8498-4fe3-b53e-088252b9fc17" valueTypeId="dd25fc44-a4bb-4517-b573-feee6d158a2c"/>
+    <listType typeId="eb392347-a0ca-451a-97ab-55b94108880f" valueTypeId="5d0b8dec-bbf8-4898-a35b-e4e42e907be9"/>
+    <managerType typeId="71733289-ae6b-4780-93c8-e1ecc6fdc5cd" valueTypeId="a9779cdb-e20c-462e-8159-a210c7d06db7"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ae9748ed-d45f-4df9-bb9a-2ca24170b3cd">
+    <name>Рейтинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b6346379-6a1e-4cc3-8ac7-cc0ef58d909d">
+    <name>РеквизитА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит А</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="3df902bc-efeb-4631-a76f-11c1b9334edc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
