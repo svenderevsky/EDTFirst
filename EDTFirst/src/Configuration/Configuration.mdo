@@ -36,4 +36,5 @@
   </languages>
   <commonModules>CommonModule.ОбщийМодуль1</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.СправочникОЧемТо</catalogs>
 </mdclass:Configuration>
