@@ -135,6 +135,22 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>КомандаРаз</name>
+    <title>
+      <key>ru</key>
+      <value>Команда раз</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаРаз</name>
+      </handler>
+    </action>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
