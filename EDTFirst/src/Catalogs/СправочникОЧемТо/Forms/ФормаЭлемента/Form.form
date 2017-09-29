@@ -132,35 +132,6 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
     </items>
-    <items xsi:type="form:Button">
-      <name>ФормаКомандаОтПробел</name>
-      <id>9</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаКомандаОтПробелРасширеннаяПодсказка</name>
-        <id>10</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.КомандаОтПробел</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -206,22 +177,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаРаз</name>
-      </handler>
-    </action>
-  </formCommands>
-  <formCommands>
-    <name>КомандаОтПробел</name>
-    <title>
-      <key>ru</key>
-      <value>Команда от пробел</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаОтПробел</name>
       </handler>
     </action>
   </formCommands>
