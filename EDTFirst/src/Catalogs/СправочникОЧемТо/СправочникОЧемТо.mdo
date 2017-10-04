@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eeeb76b-6aa3-421b-9a84-f2668ad6840e">
+  <producedTypes>
+    <objectType typeId="59dff83a-d51e-42e8-95d2-4ca78c8f63e2" valueTypeId="61e1d3f1-b5a8-4eaf-89d3-308ac09056f9">
+    </objectType>
+    <refType typeId="0b8979ab-b22d-407b-9b8b-3c0b306a1556" valueTypeId="e65036c5-4c4e-474d-b715-efe6800225e1">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="191ec2b7-8e97-4d3e-ac6b-a0e524f3cc2d" valueTypeId="63963a47-e137-41d0-b103-199d15e4b600">
+    </selectionType>
+    <listType typeId="5fa41613-553a-4533-8b48-f1c6314ac697" valueTypeId="b9a68595-8028-481a-8328-b2971cf478bd">
+    </listType>
+    <managerType typeId="dc327910-a4d7-4b83-93b0-fe673204d4aa" valueTypeId="548f89f4-4143-4943-b610-d06527b1f7e1">
+    </managerType>
+  </producedTypes>
+  <name>СправочникОЧемТо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник о чем то</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СправочникОЧемТо.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СправочникОЧемТо.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СправочникОЧемТо.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="93178469-e6ef-4190-9e29-0b8d8178c789">
+    <name>Рейтинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="936a6b20-dde0-4ad9-b953-ea37f146ea87">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
